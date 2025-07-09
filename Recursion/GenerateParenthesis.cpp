@@ -85,3 +85,7 @@ public:
         return ans;
     }
 };
+
+//catalan's number is 2nCn/(n+1)
+//that's the number of possible valid combos of n.
+//eg. for 4 its 14

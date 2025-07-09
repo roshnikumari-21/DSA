@@ -4,10 +4,12 @@ using namespace std;
 //codewithMIK__________GOOGLE
 
 //brute--->do dfs or bfs from each node, and find ans (tle approach)
+//basically,find height assuming from each node..
 
 //optimised___________tc=O(V+E)
 //kind of topo sort, bfs at last of queue whatever wil be remaining that will be our answer
 //answer can be either 2 or 1 nodes only
+//by observation
 
 class Solution {
 public:

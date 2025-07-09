@@ -88,3 +88,14 @@ ________________________________________
 ________________________________________
 
 binary_search(nums.begin(),nums.end(),-nums[i])          //ye v exist krta h.
+
+@ rahul subramaniam---what a legend
+________________________________________
+questions to ask
+# what is the input size
+#
+
+
+
+________________________________________
+fill(dp.begin(),dp.end(),vector<int>(m,-1));   //to fill a 2d vector with -1
