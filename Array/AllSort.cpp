@@ -107,14 +107,16 @@ public:
 // merge sort___________
 // tc=O(nlogn)_______worst=O(n^2)___________________sc=O(n)
 
+//here instead of padding i can use simpley a[n1] and b[n2] and then 2 more while condn for boundaries...
+
 class Solution
 {
 public:
     void merge(int arr[], int l, int m, int r)
     {
         int i = 0, j = 0, k = l;
-        int n1 = m - l + 1;
-        int n2 = r - m;
+        int n1 = m - l + 1;      //length of first half
+        int n2 = r - m;         //length of second half
         int a[n1 + 1];
         int b[n2 + 1];
         for (int i = 0; i < n1; i++)
