@@ -1,4 +1,4 @@
-// The set [1, 2, 3, ..., n] contains a total of n! unique permutations.
+// The set [1, 2, 3, ..., n] contains a total of n! unique permutations. tc=O(n! * n )
 // By listing and labeling all of the permutations in order, we get the following sequence for n = 3:
 
 // Input: n = 3, k = 3

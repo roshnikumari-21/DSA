@@ -102,3 +102,5 @@ fill(dp.begin(),dp.end(),vector<int>(m,-1));   //to fill a 2d vector with -1
 
 
 #define P pair<double, int>
+
+reverse takes O(n) time, inbuilt wala bhi..

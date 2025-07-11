@@ -15,5 +15,15 @@ https://leetcode.com/problems/maximum-subarray-min-product/description/?envType=
 
 https://leetcode.com/problems/maximum-subarray-min-product/description/?envType=problem-list-v2&envId=mtfkubhi
 
-https://leetcode.com/problems/multiply-strings/submissions/1508589570/?envType=problem-list-v2&envId=mtfkubhi
+https://leetcode.com/problems/multiply-strings/submissions/1P508589570/?envType=problem-list-v2&envId=mtfkubhi
 
+https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+
+https://leetcode.com/problems/count-binary-substrings/description/?envType=problem-list-v2&envId=23wvynlt
+
+https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=problem-list-v2&envId=23wvynlt
+
+https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description/?envType=problem-list-v2&envId=23wvynlt
+
+
+https://leetcode.com/problems/sliding-window-median/description/?envType=problem-list-v2&envId=23wvynlt
