@@ -1,6 +1,7 @@
 {
-    "files.associations": {
-        "*.ejs": "html",
-        "ostream": "cpp"
-    }
+  "files.associations": {
+    "*.ejs": "html",
+    "ostream": "cpp",
+    "cstdlib": "cpp"
+  }
 }

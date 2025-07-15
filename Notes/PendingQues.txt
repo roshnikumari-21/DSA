@@ -27,3 +27,9 @@ https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/description
 
 
 https://leetcode.com/problems/sliding-window-median/description/?envType=problem-list-v2&envId=23wvynlt
+
+https://leetcode.com/problems/sell-diminishing-valued-colored-balls/description/?envType=problem-list-v2&envId=nx4nkplg
+
+https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=m4s0v4v5
+
+https://leetcode.com/problems/path-sum/description/?envType=problem-list-v2&envId=a9vxflh6

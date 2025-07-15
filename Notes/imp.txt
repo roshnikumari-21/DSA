@@ -93,8 +93,6 @@ binary_search(nums.begin(),nums.end(),-nums[i])          //ye v exist krta h.
 ________________________________________
 questions to ask
 # what is the input size
-#
-
 
 
 ________________________________________
@@ -104,3 +102,17 @@ fill(dp.begin(),dp.end(),vector<int>(m,-1));   //to fill a 2d vector with -1
 #define P pair<double, int>
 
 reverse takes O(n) time, inbuilt wala bhi..
+
+ v.erase(v.begin() + 2);   //for erasing element at index 2
+
+
+
+ // Make sure the 3rd smallest element (0-based index = 2) is at v[2]
+    nth_element(v.begin(), v.begin() + 2, v.end());         //partially sorted 
+
+a+b= (a^b)+2(a&b)    // bit manipulation
+
+
+int idx = upper_bound(v.begin(), v.end(), value) - v.begin();        //Find first strictly larger value
+
+//bfs in tree is O(N)

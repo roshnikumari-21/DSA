@@ -18,3 +18,22 @@ string convertToTitle(int A) {
     }
     return ans;
 }
+
+
+//______________________________________________________
+
+
+//Input: columnTitle = "AB"
+//Output: 28
+
+class Solution {
+public:
+    int titleToNumber(string col) {
+        int res = 0;
+
+        for (int i = 0; i < col.size(); i++) {
+            res = (res * 26) + (col[i] - 'A' + 1);
+        }
+        return res;
+    }
+};
