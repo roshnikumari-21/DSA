@@ -116,3 +116,8 @@ a+b= (a^b)+2(a&b)    // bit manipulation
 int idx = upper_bound(v.begin(), v.end(), value) - v.begin();        //Find first strictly larger value
 
 //bfs in tree is O(N)
+
+in binary search the tc= O(log(range))
+
+
+ gcd(a,b) = gcd(a,b-a)

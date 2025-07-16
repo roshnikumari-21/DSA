@@ -33,3 +33,5 @@ https://leetcode.com/problems/sell-diminishing-valued-colored-balls/description/
 https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=m4s0v4v5
 
 https://leetcode.com/problems/path-sum/description/?envType=problem-list-v2&envId=a9vxflh6
+
+https://leetcode.com/problems/k-inverse-pairs-array/description/?envType=problem-list-v2&envId=nx4nkplg
