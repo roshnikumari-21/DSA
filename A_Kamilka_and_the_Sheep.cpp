@@ -32,7 +32,8 @@ void solve(){
      fi(i,0,n) cin>>arr[i];
 
      ll maxi=*max_element(all(arr));
-     for(int i=1)
+     ll mini=*min_element(all(arr));
+     cout<<maxi-mini<<endl;
 
 }
 
