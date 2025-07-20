@@ -3,7 +3,6 @@
 // Output: 4
 
 
-
 //brute____________________
 //generate all subsequence and check palindrome__________--->ghatiya tarikaaa
 
@@ -11,7 +10,6 @@
 //tc=O(n^2)  ...  sc=O(n^2) for dp table, O(n) recursion stack space
 
 //string s ka reverse krloo....aur dono me common nikalo
-
 
 
 

@@ -5,6 +5,32 @@ using namespace std;
 //transpose and then reverse each row..
 
 
+//brute
+//tc=O(n^2) sc=O(n^2)
+
+class Solution {
+public:
+    void rotate(vector<vector<int>>& mat) {
+        int n=mat.size();
+        vector<vector<int>>ans(n,vector<int>(n));
+        
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                ans[j][n-1-i]=mat[i][j];   //transpose+reverse
+
+            }
+        }
+
+        mat=ans;
+        return;
+        
+    }
+};
+
+
+
+//optimal
+//tc=O(n^2)     sc=O(1)
 class Solution
 {
 public:

@@ -2,6 +2,36 @@
 using namespace std;
 
 
+
+//brute is 3 loops, O(n^3), sort krke set me daalenge to remove duplicate triplets
+
+//better ---> use 2 loops and a hashset
+
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+
+        set<vector<int>> st;
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            set<int> hash;
+            for (int j = i + 1; j < n; j++) {
+                int sum = -(nums[i] + nums[j]);
+                if (hash.find(sum) != hash.end()) {
+                    vector<int> temp = {nums[i], nums[j], sum};
+                    sort(temp.begin(), temp.end());
+                    st.insert(temp);
+                }
+                hash.insert(nums[j]);
+            }
+        }
+
+        vector<vector<int>> ans(st.begin(), st.end());
+        return ans;
+    }
+};
+
+//optimal______________________________________________________
 //tc= O(n log n) + O(n²) = O(n²)____________________________
 
 class Solution {

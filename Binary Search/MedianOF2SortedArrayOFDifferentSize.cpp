@@ -56,21 +56,19 @@ double median(vector<int>& a, vector<int>& b) {
         j++;
     }
 
-    if (n % 2 == 1) return ind1el;
+    if (n % 2 == 1) return ind1el;     //for odd
     return (ind1el + ind2el) / 2.0;
 }
 
 
 //binary search approach_____optimal__________________________________________________
-//do binary search on shorter array
+//do binary search on shorter array to reduce time complexity
 //tc=log(n1)
-
 
 
 
 // Time   	O(log(min(n1, n2)))
 // Space	O(1)
-
 
 
 double median(vector<int>& a, vector<int>& b) {   //a ko chota assume krte hue

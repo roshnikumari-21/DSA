@@ -1,6 +1,5 @@
 //same as done with median...write code yoursesslf afterwards
 
-
 //o(min(l1,l2))
 
 
@@ -15,7 +14,7 @@ double median(vector<int>& a, vector<int>& b,int k) {   //a ko chota assume krte
     if (n1 > n2) return median(b, a,k);  // Ensure a is the smaller array
 
     int low = 0, high = n1;
-    int left = k;
+    int left = k;    
     int n = n1 + n2;
 
     while (low <= high) {

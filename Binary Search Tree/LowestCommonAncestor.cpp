@@ -13,7 +13,6 @@
 //         TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 //             if(root==NULL) return NULL;
 
-
 //             int temp=root->val;
 //             if(p->val<temp && q->val<temp){
 //                 return lowestCommonAncestor(root->left,p,q);

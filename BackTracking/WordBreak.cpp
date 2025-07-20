@@ -7,6 +7,8 @@
 //tc=O((n^2)*m), m is no. of words given in worddict
 //sc=O(n)
 
+//recursion+memoization
+
 #include <bits/stdc++.h>
 using namespace std;
 
