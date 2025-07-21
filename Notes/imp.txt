@@ -121,3 +121,12 @@ in binary search the tc= O(log(range))
 
 
  gcd(a,b) = gcd(a,b-a)
+
+ string bin=bitset<60>(i).to_string();    //to convert integer to binary string
+
+ ans[i]= __builtin_popcount(i);     //to count number of set bits in i
+
+ ______________________________________________________________
+
+ in map insertion and deletion is O(logn) because it is implemented as a Red-Black Tree
+ in unordered_map insertion and deletion is O(1) on average because it is implemented as a hash table

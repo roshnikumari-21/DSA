@@ -3,7 +3,7 @@ using namespace std;
 
 // Metric	Complexity
 // Time	O(N²)
-// Time (optimized)	O(N) with hash map--->unordered map for O(1) lookup
+// Time (optimized)	O(N)____________ with hash map--->unordered map for O(1) lookup
 // Space	O(N)
 
 //from postorder_______________________
@@ -47,5 +47,38 @@ using namespace std;
 //         int postInd = n - 1;
 
 //         return build(postorder, inorder, postInd, 0, n - 1);
+//     }
+// };
+
+
+
+//_________________________________________________________________________
+//with map tc=O(N) faster lookup
+
+
+
+// class Solution {
+// public:
+//     TreeNode* solve(vector<int>& ino, vector<int>& post, int& postind, int inst,
+//                     int inend, unordered_map<int, int>& mp) {
+//         if (inst > inend)
+//             return NULL;
+//         int val = post[postind--];
+//         TreeNode* nod = new TreeNode(val);
+//         int inind = mp[val];
+
+//         nod->right = solve(ino, post, postind, inind + 1, inend, mp);
+//         nod->left = solve(ino, post, postind, inst, inind - 1, mp);
+//         return nod;
+//     }
+
+//     TreeNode* buildTree(vector<int>& ino, vector<int>& post) {
+//         int n = post.size();
+//         int postind = n - 1;
+//         unordered_map<int, int> mp;
+//         for (int i = 0; i < n; i++) {
+//             mp[ino[i]] = i;
+//         }
+//         return solve(ino, post, postind, 0, n - 1, mp);
 //     }
 // };

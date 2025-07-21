@@ -64,10 +64,12 @@ class Solution {
     };
 
 
-    //__________tc=O(r)    sc=O(1)______________________________
+    //__________tc=O(r)____sc=O(1)______________________________
 
 
     //formula is (n+m-2)C(m-1)  or (n+m-2)C(n-1) ..
+
+    //we need to choose m-1 and n-1 moves from a total of (m+n-2) moves
 
 class Solution {
 public:

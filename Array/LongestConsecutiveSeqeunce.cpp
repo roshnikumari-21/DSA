@@ -51,7 +51,7 @@ class Solution {
             n = nums.size();
             if (n == 0)
                 return 0;
-            sort(nums.begin(), nums.end());
+            sort(nums.begin(), nums.end());    //O(nlogn)
     
             int curr = 1, maxi = 1, lastmin = INT_MIN;
     

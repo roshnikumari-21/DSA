@@ -19,7 +19,7 @@ public:
             mp[nums[i]]++;
         }
 
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;  
         // minimum pq
 
         for (auto it : mp)
