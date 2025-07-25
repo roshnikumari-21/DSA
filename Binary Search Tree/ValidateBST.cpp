@@ -2,7 +2,7 @@
 
 
 //tc=O(N)
-//sc=O(H)
+//sc=O(H) or O(log(n))
 
 
 // class Solution

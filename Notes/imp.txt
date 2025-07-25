@@ -130,3 +130,10 @@ in binary search the tc= O(log(range))
 
  in map insertion and deletion is O(logn) because it is implemented as a Red-Black Tree
  in unordered_map insertion and deletion is O(1) on average because it is implemented as a hash table
+
+
+
+
+
+ bool isDigit = isdigit(char);    // Check if the character is a digit
+ bool isHexDigit = isxdigit(char); // Check if the character is a hexadecimal digit (0-9, a-f, A-F)
