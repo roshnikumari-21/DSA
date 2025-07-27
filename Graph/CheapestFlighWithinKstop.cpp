@@ -2,6 +2,8 @@
 using namespace std;
 
 
+//this algorithm is used on wide scale on a number of websites
+
 //dijkstra is not possible here....
 //bcoz we need to store everything in terms of stops..
 

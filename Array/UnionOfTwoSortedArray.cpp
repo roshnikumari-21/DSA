@@ -9,7 +9,8 @@ using namespace std;
 //tc=O(nlogn)
 //sc=O(n1+n2)--->to return the answer
 
-//optimal-->two pointer approach
+//optimal-->two pointer approach___________________________
+//tc=O(N1+n2) sc=O(N1+n2)
 
 
 vector<int> sortedArray(vector<int> a, vector<int> b) {
@@ -48,3 +49,6 @@ vector<int> sortedArray(vector<int> a, vector<int> b) {
 
     return unionArr;
 }
+
+
+

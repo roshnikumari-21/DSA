@@ -35,3 +35,9 @@ https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/descriptio
 https://leetcode.com/problems/path-sum/description/?envType=problem-list-v2&envId=a9vxflh6
 
 https://leetcode.com/problems/k-inverse-pairs-array/description/?envType=problem-list-v2&envId=nx4nkplg
+
+
+https://www.interviewbit.com/problems/array-3-pointers/
+
+https://www.interviewbit.com/problems/single-number-ii/
+

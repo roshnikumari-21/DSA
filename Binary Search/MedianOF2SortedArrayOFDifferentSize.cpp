@@ -24,7 +24,7 @@ double median(vector<int>& a, vector<int>& b) {
     int i = 0, j = 0;
     int n = n1 + n2;
     int ind1 = n / 2;
-    int ind2 = n / 2 - 1;
+    int ind2 = n / 2 - 1;        //correct for both even and odd
     int cnt = 0;
     int ind1el = -1, ind2el = -1;
 
@@ -56,8 +56,8 @@ double median(vector<int>& a, vector<int>& b) {
         j++;
     }
 
-    if (n % 2 == 1) return ind1el;     //for odd
-    return (ind1el + ind2el) / 2.0;
+    //if (n % 2 == 1) return ind1el;     
+    return (ind1el + ind2el) / 2.0;    //correct for both
 }
 
 
