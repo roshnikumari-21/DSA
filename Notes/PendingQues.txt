@@ -41,3 +41,5 @@ https://www.interviewbit.com/problems/array-3-pointers/
 
 https://www.interviewbit.com/problems/single-number-ii/
 
+https://leetcode.com/problems/24-game/description/?envType=problem-list-v2&envId=nx4nkplg
+

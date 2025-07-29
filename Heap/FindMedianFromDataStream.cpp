@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
-
 class MedianFinder
 {
 public:
@@ -12,7 +9,7 @@ public:
 
     MedianFinder() {}
 
-    void addNum(int num)
+    void addNum(int num)          //O(logn)
     {
         if (left.empty() || num <= left.top())
             left.push(num);
@@ -32,7 +29,7 @@ public:
         }
     }
 
-    double findMedian()
+    double findMedian()     //O(1)
     {
         if (left.size() == right.size())
         {

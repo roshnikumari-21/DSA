@@ -2,9 +2,8 @@
 using namespace std;
 
 
-
 // Category	Complexity
-// Time	O(9^M)    (M = empty cells)
+// Time	O(9^M)    (M = empty cells)   ....here in worst case 9^81
 // Space	O(M) (recursion depth)
 
 class Solution
@@ -50,7 +49,7 @@ public:
                 return false;
             if (board[row][i] == c)    //check for row
                 return false;
-            if (board[3 * (row / 3) + i / 3][3 * (col / 3) + i % 3] == c)
+            if (board[3 * (row / 3) + (i / 3)][3 * (col / 3) + (i % 3)] == c)
                 return false;
         }
         return true;

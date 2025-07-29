@@ -248,3 +248,28 @@ void heapSort(vector<int>& arr) {
         heapify(arr, i, 0);         // Heapify the reduced heap
     }
 }
+
+
+//count sort____________tc=O(n+R)________________sc=O(n)___________
+
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        int n = nums.size();
+        unordered_map<int, int> mp;
+        for (int i = 0; i < n; i++) {
+            mp[nums[i]]++;
+        }
+        int mini = *min_element(nums.begin(), nums.end());    //O(n)--->linear scan
+        int maxi = *max_element(nums.begin(), nums.end());    //O(n)
+        int j = 0; 
+        for (int i = mini; i <= maxi; i++) {   //O(Range)
+            while (mp[i] > 0) {   
+                nums[j] = i;
+                j++;
+                mp[i]--;
+            }
+        }
+        return nums;
+    }
+};
