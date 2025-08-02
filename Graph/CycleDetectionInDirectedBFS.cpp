@@ -5,6 +5,9 @@ using namespace std;
 //using kahn's algorithm
 //topo sort only applicable to dag
 
+//tc=O(v+e)
+//sc=To store the adjacency list: O(V + E)
+
 
 class Solution
 {

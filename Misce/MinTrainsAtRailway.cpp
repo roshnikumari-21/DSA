@@ -4,17 +4,18 @@
 // Input: arr[] = [900, 1235, 1100], dep[] = [1000, 1240, 1200]
 // Output: 1
 
-// brute force...some other day
+// brute force...tc=O(n^2)__________________________
+//by counting the number of intersections for each train...and calculating the maximum among them.....
 
 // optimal____________________________________________________________________________________
 
 // as the time passes by, i observe trains coming and going thus maintainging a count ...of platform needed
 
-//tc= O(nlogn + n)  
+//tc= 2* O(nlogn + n)  
 //sc=O(1)
 
 //but we are distorring the original array...so we can take a thrid array put every time in it (arr+dpt)
-//and sort it
+//and sort it using vector of pair
 
 #include <bits/stdc++.h>
 using namespace std;

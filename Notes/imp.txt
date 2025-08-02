@@ -136,4 +136,4 @@ in binary search the tc= O(log(range))
 
 
  bool isDigit = isdigit(char);    // Check if the character is a digit
- bool isHexDigit = isxdigit(char); // Check if the character is a hexadecimal digit (0-9, a-f, A-F)
+ bool isHexDigit = isxdigit(char); // Check if the character is a hexadecimal digit (0-9, a-f, A-F) 

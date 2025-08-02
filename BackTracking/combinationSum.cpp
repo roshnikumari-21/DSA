@@ -7,7 +7,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+ 
 //tc = O(2^n)__________
 
 class Solution {

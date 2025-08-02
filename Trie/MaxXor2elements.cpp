@@ -4,36 +4,34 @@
 // same approach , insert one array into trie...
 // then try with all elements of array2
 
-//tc=O(n*32)  and O(m*32)  for both arrays
-
+// tc=O(n*32)  and O(m*32)  for both arrays
 
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Node
-{
-    Node *links[2];
-    bool containskey(int bit)
-    {
-        // if(links[bit]==NULL) return false;
-        // else return true;
-        return (links[bit] != NULL);
-    }
-
-    Node *get(int bit)
-    {
-        return links[bit];
-    }
-
-    void put(int bit, Node *node)
-    {     // create a node and put the bit
-        links[bit] = node;
-    }
-};
-
 class Trie
 {
 private:
+    struct Node
+    {
+        Node *links[2];
+        bool containskey(int bit)
+        {
+            // if(links[bit]==NULL) return false;
+            // else return true;
+            return (links[bit] != NULL);
+        }
+
+        Node *get(int bit)
+        {
+            return links[bit];
+        }
+
+        void put(int bit, Node *node)
+        { // create a node and put the bit
+            links[bit] = node;
+        }
+    };
     Node *root;
 
 public:
@@ -42,7 +40,7 @@ public:
         root = new Node();
     }
 
-public:
+
     void insert(int num)
     { // start inserting from 31st bit
         Node *node = root;
@@ -61,7 +59,7 @@ public:
         }
     }
 
-public:
+
     int getMax(int num)
     {
         Node *node = root;
@@ -86,8 +84,6 @@ public:
         return maxi;
     }
 };
-
-
 
 class Solution
 {
