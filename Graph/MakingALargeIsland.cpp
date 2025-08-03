@@ -7,6 +7,8 @@ using namespace std;
 
 // using set to store parents, to avoid conflicts...
 
+//tc=O(n^2) and sc=O(n^2) for grid
+
 class DisjointSet
 {
 

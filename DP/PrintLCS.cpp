@@ -1,4 +1,4 @@
-// tc=O(N+m)
+// tc=O(N+m) for printing
 //first generate the dp table then , make the string
 
 #include <bits/stdc++.h>

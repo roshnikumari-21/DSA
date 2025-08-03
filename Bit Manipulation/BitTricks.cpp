@@ -21,3 +21,11 @@ int toggleIthBit(int n, int i) {
 int removeRightmostSetBit(int n) {
     return n & (n - 1);
 }
+
+
+//set the rightmost unset bit
+
+int setBits(int N){
+    if((N & (N+1))==0) return N;    //for numbers who have all bit set already
+    return (N | (N+1));
+}
