@@ -2,7 +2,7 @@
 using namespace std;
 
 // A peak element in a 2D grid is an element that is strictly greater
-// r than all of its adjacent neighbors to the left, right, top, and bottom.
+//  than all of its adjacent neighbors to the left, right, top, and bottom.
 
 // brute---->run loops and check each element
 // tc=O(n*m*4)

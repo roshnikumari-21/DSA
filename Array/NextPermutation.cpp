@@ -9,8 +9,6 @@
 // tc=O(N! * N)+ O(Nlogn)
 
 
-
-
 // the better would be to use STL next_permutation()
 
 #include <bits/stdc++.h>
@@ -63,3 +61,7 @@ public:
         }
     }
 };
+
+
+
+// [1, 4, 3, 2] --------> [2, 1, 3, 4]

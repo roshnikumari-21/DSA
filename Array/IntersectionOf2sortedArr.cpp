@@ -5,7 +5,6 @@ using namespace std;
 // B: [3 3 5]
 //Output 1: [3 3 5]
 
-
 //tc=O(m+n)
 
 vector<int> intersect(const vector<int> &a, const vector<int> &b)

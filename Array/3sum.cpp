@@ -2,9 +2,7 @@
 using namespace std;
 
 
-
 //brute is 3 loops, O(n^3), sort krke set me daalenge to remove duplicate triplets
-
 //better ---> use 2 loops and a hashset
 
 class Solution {

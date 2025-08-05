@@ -26,7 +26,6 @@ public:
             {
                 for (int i = top; i <= right; i++)
                 {
-
                     ans.push_back(mat[top][i]);
                 }
                 top++;

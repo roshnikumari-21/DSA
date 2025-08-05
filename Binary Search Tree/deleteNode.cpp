@@ -8,7 +8,7 @@ using namespace std;
 // class Solution {
 //     public:
     
-//        TreeNode* inorderS(TreeNode* root){   //inorder successosor
+//        TreeNode* inorderS(TreeNode* root){   //inorder successor
 //             while(root->left!=NULL){
 //                 root=root->left;
 //             }

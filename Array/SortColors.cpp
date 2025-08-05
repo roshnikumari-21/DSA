@@ -5,7 +5,7 @@ using namespace std;
 
 // Input: nums = [2,0,2,1,1,0]
 // Output: [0,0,1,1,2,2]
-//dutch national flag algorithm
+// dutch national flag algorithm
 
 class Solution {
     public:

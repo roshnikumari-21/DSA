@@ -15,7 +15,6 @@
 using namespace std;
 
 
-
 class Solution {
   public:
     int longestSubarray(vector<int>& arr, int k) {

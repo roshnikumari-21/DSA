@@ -1,6 +1,6 @@
 // gives the order in inorder format when next() is called
 
-// brute force--->store inorder in a vector, then just traversse through it to give next, next
+// brute force--->store inorder in a vector, then just traverse through it to give next, next
 
 // optimised---> do a kind of iterative inorder using stack
 // tc=O(1)___________sc=O(h)

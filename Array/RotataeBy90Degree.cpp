@@ -6,7 +6,7 @@ using namespace std;
 
 
 //brute
-//tc=O(n^2) sc=O(n^2)
+//tc=O(n^2) ...sc=O(n^2)
 
 class Solution {
 public:

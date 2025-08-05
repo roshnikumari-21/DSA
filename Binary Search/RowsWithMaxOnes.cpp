@@ -10,7 +10,6 @@ using namespace std;
 //find lower_bound of one on each row--count number of ones and compare----->binary search solution...
 
 
-
 class Solution
 {
 public:

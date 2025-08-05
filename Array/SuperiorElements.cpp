@@ -9,7 +9,6 @@ using namespace std;
 vector<int> superiorElements(vector<int> &a)
 {
     vector<int> ans;
-
     int n = a.size();
     int maxi = a[n - 1];
     ans.push_back(a[n - 1]);

@@ -6,7 +6,6 @@ using namespace std;
 // Each row is sorted in non-decreasing order.
 // The first integer of each row is greater than the last integer of the previous row.
 
-
 //Staircase Search Algorithm_________________________________________
 //tc=O(N+M)   sc=O(1)
 

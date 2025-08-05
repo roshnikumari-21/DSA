@@ -2,7 +2,7 @@
 //tc=O(N^2)-->for each number i am checking
 
 
-//better--->using  hashing____________________________________
+//better---> using  hashing____________________________________
 //tc=O(N)+O(N)   sc=O(N)
 
 

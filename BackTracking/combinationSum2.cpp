@@ -27,7 +27,6 @@ public:
     int n;
     void f(int ind, vector<int> &v, int tar)
     {
-
         if (tar == 0)
         {
             ans.insert(temp);

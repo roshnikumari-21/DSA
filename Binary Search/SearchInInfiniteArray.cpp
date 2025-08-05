@@ -11,11 +11,11 @@ int getValue(int index) {
     return arr[index];
 }
 
-// Function to find target in "infinite" array
+
 int searchInInfiniteArray(int target) {
     int start = 0, end = 1;
 
-    // Step 1: Find the range where target could be
+    
     while (getValue(end) < target) {
         start = end + 1;
         end = end * 2;  // exponentially increase end

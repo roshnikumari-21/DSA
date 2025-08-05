@@ -2,7 +2,6 @@ use vectors when u have to store freq of ascii(256) characters---->fastest, uses
 
 map-->gives O(logn) complexity for insertion and deletion, but uses more space than vectors
 
-
 deque---->tc=O(1) for insertion and deletion at both ends, but uses more space than vectors
 
 
@@ -138,4 +137,6 @@ in binary search the tc= O(log(range))
  bool isDigit = isdigit(char);    // Check if the character is a digit
  bool isHexDigit = isxdigit(char); // Check if the character is a hexadecimal digit (0-9, a-f, A-F) 
 
- int* ans=new int[size];
+ int* ans=new int[size];   //for dynamic array allocation
+
+ set is implemented using Red-Black Tree, so insertion and deletion is O(log n)
