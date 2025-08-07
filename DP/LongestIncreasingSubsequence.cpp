@@ -6,8 +6,6 @@
 
 // it has to be increasing not equal......
 
-
-
 //most brute way--->generate all subsequence, tc=O(2^n)
 
 #include <bits/stdc++.h>

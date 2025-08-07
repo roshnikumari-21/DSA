@@ -22,7 +22,7 @@ public:
         long long hash_needle = 0, hash_window = 0, power = 1;
         for (int i = 0; i < m; ++i)
         {
-            hash_needle = hash_needle * base + (needle[i] - 'a');
+            hash_needle = hash_needle * base + (needle[i] - 'a');   //fixed
             hash_window = hash_window * base + (haystack[i] - 'a');            
                 power *= base;
         }

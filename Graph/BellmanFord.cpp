@@ -4,8 +4,8 @@
 // helps detect negative cycles
 // applicable for directed graph.....if given undirected convert it first to directed using double edge
 
-// relaxation for (n-1) times
-//tc=O(V+E)
+// relaxation for (n-1) times, becasue at worst case u will take n-1 edges to reach from first node to last node.
+//tc=O(V*E)   sc=O(V)
 
 
 //edges = [[0,1,5], [1,0,3], [1,2,-1], [2,0,1]], src = 2
@@ -17,8 +17,7 @@ using namespace std;
 
 class Solution
 {
-public:
-   
+public:   
     vector<int> bellmanFord(int V, vector<vector<int>> &edges, int src)
     {
         vector<int> dist(V, 1e8);

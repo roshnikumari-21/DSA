@@ -9,6 +9,8 @@
 
 //application of dijstra's algorithm
 
+//tc=O(V+E)logV
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,7 +21,7 @@ class Solution
 public:
     int networkDelayTime(vector<vector<int>> &times, int n, int k)
     {
-        vector<vector<pair<int, int>>> adj(n + 1);
+        vector<vector<pair<int, int>>> adj(n + 1);   //1 based indexing
         for (auto i : times)
         {
             adj[i[0]].push_back({i[1], i[2]});
@@ -27,7 +29,7 @@ public:
 
         vector<int> dist(n + 1, 1e9);
         dist[0] = 0;
-        // queue<pair<int,int>>q;  //dist,node
+        
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
         dist[k] = 0;   //source node
         q.push({0, k});

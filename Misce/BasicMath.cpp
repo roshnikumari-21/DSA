@@ -4,7 +4,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int calcGCD(int n, int m){
     if(m==0) return n;
     else calcGCD(m,n%m);
@@ -65,7 +64,7 @@ void printDivisors(int n) {
 
 
 
-double bin(double x, long long n) {
+double bin(double x, long long n) {    //x is base, and n is power
     double res = 1;
     while (n) {
         if (n % 2) {

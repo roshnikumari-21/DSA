@@ -9,6 +9,8 @@
 //greedy + priority queue
 //using heap to find the most freq. task and schedule it earlier
 
+//tc=O(nlogk)__________sc=O(k)
+
 
 #include <bits/stdc++.h>
 using namespace std;
