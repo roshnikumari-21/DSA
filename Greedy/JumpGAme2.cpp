@@ -36,7 +36,7 @@ class Solution {
 
 
 
-//using greedy
+//using greedy______________________________________
 //tc=O(N) sc=O(1)
 
 class Solution {

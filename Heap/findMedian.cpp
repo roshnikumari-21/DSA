@@ -16,11 +16,11 @@ class MedianFinder {
                 right.push(num);
     
             // Maintain left's size exactly 1 greater than right's size
-            if (left.size()>right.size() + 1) {
+            if (left.size()>right.size() + 1) {    //left bada hai
                 right.push(left.top());
                 left.pop();
             }
-            else if (right.size() > left.size()) {
+            else if (right.size() > left.size()) {       //right bada hai
                 left.push(right.top());
                 right.pop();
             }

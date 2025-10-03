@@ -17,10 +17,10 @@ class Solution {
                 return;
             }
             temp.push_back(nums[ind]);
-            f(nums, ind + 1);            
+            f(nums, ind + 1);        //take    
             temp.pop_back();
             
-            f(nums, ind + 1);
+            f(nums, ind + 1);         //not take
         }
     
         vector<vector<int>> subsets(vector<int>& nums) {

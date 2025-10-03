@@ -2,6 +2,7 @@
 using namespace std;
 
 //check if given array is bst or not
+//for a BST, the inorder traversal is always sorted in strictly increasing order
 
 class Solution {
     public:

@@ -12,6 +12,7 @@ using namespace std;
 
 vector<int> findMinCoins(int amount, vector<int> &coins) {
     vector<int> result;
+    sort(coins.rbegin(), coins.rend());
     
     for (int coin : coins) {
         while (amount >= coin) {

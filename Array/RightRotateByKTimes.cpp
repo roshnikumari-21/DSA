@@ -12,7 +12,7 @@ public:
         int n = nums.size();
         vector<int> v;
         v = nums;
-        k = k % n;
+        k = k % n;       //very imp
         for (int i = 0; i < n; i++)
         {
             int ind = (i + k) % n;

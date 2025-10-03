@@ -1,7 +1,7 @@
 
 
 //brute____________tc=O(N^2)______________________________________________________________
-//using validate bst at every nnode
+//using validate bst at every node
 
 
 //optimal_________________tc=O(N)______________________sc=O(1)__________________________

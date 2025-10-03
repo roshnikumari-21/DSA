@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 // Category	Complexity
 // Time	O(9^M)    (M = empty cells)   ....here in worst case 9^81
 // Space	O(M) (recursion depth)

@@ -17,19 +17,26 @@ using namespace std;
 //tc=O(NlogN)
 
 class Solution {
-    public:
-        vector<int> majorityElement(vector<int>& nums) {
-            map<int,int>mp;
-            vector<int>ans;
-            int n=nums.size();
-            for(int i=0; i<n; i++){
-                mp[nums[i]]++;
-                if(mp[nums[i]]>n/3)  ans.push_back(nums[i]);
-            }
-            
-            return ans;
+public:
+    vector<int> majorityElement(vector<int>& nums) {
+        map<int,int> mp;
+        vector<int> ans;
+        int n = nums.size();
+
+        for (int num : nums) {
+            mp[num]++;
         }
-    };
+
+        for (auto &p : mp) {
+            if (p.second > n/3) {
+                ans.push_back(p.first);
+            }
+        }
+
+        return ans;
+    }
+};
+
 
 
 //tc=O(2N)_________sc=O(1)_________________optimal_____________________________

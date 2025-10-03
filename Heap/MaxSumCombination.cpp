@@ -25,7 +25,7 @@ vector<int> solve(vector<int> &a, vector<int> &b, int c)
     vector<int> ans;
 
 
-    pq.push({a[0] + b[0], {0, 0}});  //staart with largest possible sum
+    pq.push({a[0] + b[0], {0, 0}});  //start with largest possible sum
     st.insert({0, 0});
     while (c--)         //O(c)
     {

@@ -24,8 +24,7 @@ class Solution {
                 while(j<m && g[i]>s[j]) {j++;}
                 if(j>=m) break;
                 ans++;            
-                j++;
-    
+                j++;    
             }
     
             return ans;

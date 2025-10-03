@@ -6,7 +6,6 @@
 //brute sol--->two loops --->O(n^2)
 
 
-
 //optimal____________________________
 //tc=O(n) 
 //sc=O(n)

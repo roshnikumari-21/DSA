@@ -1,7 +1,6 @@
 // You have been given an integer 'N'. Your task is to generate and return all binary strings of length 'N' 
 // such that there are no consecutive 1's in the string.
 
-
 //tc=O(2^n)___________sc=O(n)______________________________________
 
 #include <bits/stdc++.h>

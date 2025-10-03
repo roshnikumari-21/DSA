@@ -1,4 +1,4 @@
-// Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+// Given an m x n integer matrix, if an element is 0, set its entire row and column to 0's.
 // You must do it in place.
 
 //this solution only works if the number given are not -1....

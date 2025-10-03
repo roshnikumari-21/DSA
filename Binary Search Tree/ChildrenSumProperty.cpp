@@ -1,4 +1,4 @@
-// we can increase the value as many times as i want to sattisfy the children sum property
+// we can increase the value as many times as i want to satisfy the children sum property
 // while going down increase the nodes value
 
 #include <bits/stdc++.h>

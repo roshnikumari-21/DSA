@@ -70,6 +70,7 @@ public:
     {
         if (i < 0 || i >= heap.size())
             return;
+            
         decreaseKey(i, INT_MIN);
         extractMin();
     }

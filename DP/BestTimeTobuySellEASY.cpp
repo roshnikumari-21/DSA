@@ -6,8 +6,7 @@ using namespace std;
 // day in the future to sell that stock.
 
 class Solution {
-    public:
-        
+    public:       
     
         int maxProfit(vector<int>& arr) {
             int n=arr.size();
@@ -18,9 +17,7 @@ class Solution {
                 pro=max(pro,arr[i]-mini);
                 mini=min(mini,arr[i]);
             }
-            return pro;
-    
-    
+            return pro;       
             
         }
     };

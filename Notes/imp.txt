@@ -140,3 +140,9 @@ in binary search the tc= O(log(range))
 
  In a weighted directed graph, if you can start at a node, follow a series of edges,
   and return to the same node with the total weight < 0, then that is a negative cycle.
+
+
+
+In C++, the default access specifier depends on whether you’re using a class or a struct:
+class → members are private by default.
+struct → members are public by default.

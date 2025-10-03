@@ -1,7 +1,6 @@
 //brute__very much brute is to linear search on every number_____________________________
 //tc=O(N^2)-->for each number i am checking
 
-
 //better---> using  hashing____________________________________
 //tc=O(N)+O(N)   sc=O(N)
 
