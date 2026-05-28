@@ -146,3 +146,11 @@ in binary search the tc= O(log(range))
 In C++, the default access specifier depends on whether you’re using a class or a struct:
 class → members are private by default.
 struct → members are public by default.
+
+
+islower()
+isupper()
+tolower()
+toupper()
+
+Whenvever in problem says prefix or suffix--->Trie
