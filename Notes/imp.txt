@@ -154,3 +154,6 @@ tolower()
 toupper()
 
 Whenvever in problem says prefix or suffix--->Trie
+
+Fenwick Tree = "Segment Tree for prefix sums,range sums, but simpler and lighter."
+Segment Tree = "General-purpose range query data structure." like min, max, gcd, lcm, etc.
