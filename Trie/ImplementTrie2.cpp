@@ -65,7 +65,7 @@ public:
     Trie()
     {
         
-        root = new Node();
+        root = new Node();   //constructor
     }
 
     void insert(string &word)

@@ -20,7 +20,6 @@ class Solution
 public:
     int subarraySum(vector<int> &nums, int k)
     {
-
         int n = nums.size();
         map<int, int> mp;
         int sum = 0, ans = 0;
@@ -29,10 +28,11 @@ public:
         {
             sum += nums[i];
             int val = sum - k;
-            if (mp.find(val) != mp.end())
-                ans += mp[val];
+            ans+=mp[val];       //even if val does'nt exit, it will return 0
+            
             mp[sum]++;
         }
         return ans;
     }
 };
+

@@ -27,6 +27,7 @@ public:
             nums.push_back(i);
         }
         nums.push_back(n);     //nums=[1,2...n]
+        
         string s = "";
         k = k - 1;                    //for 0 based indexing
         while (true)    //O(N)

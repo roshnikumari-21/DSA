@@ -43,6 +43,7 @@ class Solution {
 
 
 //better______________________________________________________________________
+//sort array, find out longest seq
 
 class Solution {
     public:
@@ -51,7 +52,7 @@ class Solution {
             n = nums.size();
             if (n == 0)
                 return 0;
-            sort(nums.begin(), nums.end());    //O(nlogn)
+            sort(nums.begin(), nums.end());    //O(nlogn) //distorting the array
     
             int curr = 1, maxi = 1, lastmin = INT_MIN;
     
@@ -86,7 +87,7 @@ class Solution {
                 if (n == 0)    //edge cases
                     return 0;
         
-                unordered_set<int> st;      //O(1)
+                unordered_set<int> st;      //O(1)   ; to remove duplicates
         
                 for (int i = 0; i < n; i++) {    //O(n)
                     st.insert(nums[i]);
