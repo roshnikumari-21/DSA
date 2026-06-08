@@ -2,6 +2,7 @@
 using namespace std;
 
 //tc=O(N^3)
+//ncr method, normal
 
 class Solution
 {

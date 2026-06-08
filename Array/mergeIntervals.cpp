@@ -38,7 +38,7 @@ vector<vector<int>> mergeOverlappingIntervals(vector<vector<int>> &arr) {
 }
 
 
-
+//_________________________________________________________________
 
 //tc= O(NlogN + N)
 //sc= O(N)
@@ -47,7 +47,7 @@ class Solution {
     public:
         vector<vector<int>> merge(vector<vector<int>>& arr) {
             vector<vector<int>> ans;
-            sort(arr.begin(), arr.end());
+            sort(arr.begin(), arr.end());    // Sort based on starting time
             int n = arr.size();
     
             for (int i = 0; i < n; i++) {

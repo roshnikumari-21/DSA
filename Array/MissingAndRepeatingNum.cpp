@@ -57,7 +57,7 @@ vector<int> findMissingRepeatingNumbers(vector<int> a) {
 
     val2 = val2 / val1;             // x + y
 
-    long long x = (val1 + val2) / 2;
+    long long x = (val1 + val2) / 2;   
     long long y = x - val1;
 
     return {(int)x, (int)y};

@@ -141,12 +141,12 @@ public:
     }
     void merge(vector<int>& nums1, int n, vector<int>& nums2, int m) {
         int len = (n + m);
-        int gap = (len / 2) + (len % 2);
+        int gap = (len / 2) + (len % 2);   //for getting ceil value
         while (gap > 0) {          //O(len*log(len))
             int left = 0;  
             int right = left + gap;
             while (right < len) {           //O(len)
-                if (left < n && right >= n) {
+                if (left < n && right >= n) {    //both  in diff array
                     swapIfGreater(nums1, nums2, left, right - n);
                 } else if (left >= n) {           //both in second arr
                     swapIfGreater(nums2, nums2, left - n, right - n);
