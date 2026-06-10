@@ -16,7 +16,7 @@ public:
         int duprow = row;
         int dupcol = col;
 
-        while (row >= 0 && col >= 0)
+        while (row >= 0 && col >= 0)  
         { // upper diagonal
             if (ches[row][col] == 'Q')
                 return false;
