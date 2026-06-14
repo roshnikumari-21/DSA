@@ -2,7 +2,7 @@
 using namespace std;
 
 // Return the least weight capacity of the ship that will result in all the packages
-//  on the conveyor belt being shipped within days days.
+//  on the conveyor belt being shipped within d days.
 
 
 

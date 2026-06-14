@@ -13,8 +13,6 @@
 // binary search_____________________________________________________
 // tc=O(nlogn)+log(n)+O(n)
 
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -41,7 +39,7 @@ int aggressiveCows(vector<int> &stalls, int k)
     int low = 1, high = stalls[n - 1] - stalls[0];
     while (low <= high)
     {
-        int mid = (low + high) / 2;    //here mid represents dist.
+        int mid = (low + high) / 2; // here mid represents dist.
         if (canWePlace(stalls, mid, k) == true)
         {
             low = mid + 1;
@@ -51,5 +49,5 @@ int aggressiveCows(vector<int> &stalls, int k)
             high = mid - 1;
         }
     }
-    return high;
+    return high; // cuz it changes polarity
 }
