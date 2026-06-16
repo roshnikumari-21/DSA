@@ -22,6 +22,7 @@ public:
     //optimal________O(log(N))___________________________________
 
     //find out the indexes between which my ans will be lying
+    // 1 based numberiring
 
     class Solution {
         public:

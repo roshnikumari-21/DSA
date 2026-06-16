@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    // Function to find floor of x
+    // Function to find ceil of x
     // n: size of vector
     // x: element whose ceil is to find
     int findCeil(vector<long long> &v, long long n, long long x)

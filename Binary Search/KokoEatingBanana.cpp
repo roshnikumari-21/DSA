@@ -3,7 +3,7 @@ using namespace std;
 
 //Return the minimum integer k such that she can eat all the bananas within h hours.
 
-//k=banana/hr
+//k=banana/hr  , banana eating speed
 
 
 //start=1, end=v[n-1] after sorting

@@ -17,7 +17,7 @@ public:
         {
             int mid = (low + high) / 2;
 
-            if (arr[low] <= arr[mid])
+            if (arr[low] <= arr[mid])     //sorted half
             {
                 if (ans > arr[low])
                 {
