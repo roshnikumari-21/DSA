@@ -37,4 +37,4 @@ using namespace std;
 // };
 
 
-//for kth largest=(n-k)th smallest
+//for kth largest=(n-k+1)th smallest

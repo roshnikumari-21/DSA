@@ -6,6 +6,7 @@
 // as it process all nodes once, tc=O(N)
 // recursive call stack= sc=O(logn)
 
+//preorder= root, left, right
 
 // class Solution
 // {
