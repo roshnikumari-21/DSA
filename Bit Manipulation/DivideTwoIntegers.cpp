@@ -46,8 +46,8 @@ public:
             sign = false;
         if (divi < 0 && di > 0)
             sign = false;
-        long long n = abs(divi);
-        long long d = abs(di);   
+        long long n = abs(divi);    //numerator
+        long long d = abs(di);       //denominator
 
         long long ans = 0;
         while (n >= d)
