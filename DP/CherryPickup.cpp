@@ -21,9 +21,9 @@ public:
     int f(int i, int j, int k, int n, int m, vector<vector<int>> &arr, vector<vector<vector<int>>> &dp)
     {
 
-        if (j < 0 || j >= m || k < 0 || k >= m) // out of bound
+        if (j < 0 || j >= m || k < 0 || k >= m)    // out of bound
             return -1e9;
-        if (i == n - 1)
+        if (i == n - 1)              //destination
         {
 
             if (j == k)

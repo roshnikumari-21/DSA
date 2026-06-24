@@ -29,8 +29,6 @@ public:
     }
 
 
-
-
     int solve(int ind, string &s, vector<int> &dp)
     {
         if (ind == n)
