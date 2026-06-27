@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-// User function Template for C++
+
 class Solution {
     public:
         int f(int ind, int n, int price[], int len,vector<vector<int>>&dp) {

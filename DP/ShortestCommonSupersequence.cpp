@@ -30,6 +30,7 @@ class Solution {
             }
     
             // Step 2: Build Shortest Common Supersequence using LCS
+            //find the bug here, if i and j starts from n and m...it would be better ig
             int i = 0, j = 0;
             string scs = "";
     

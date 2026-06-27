@@ -1,5 +1,6 @@
 // tc=O(N+m) for printing
 //first generate the dp table then , make the string
+//longest common subsequesnce
 
 #include <bits/stdc++.h>
 using namespace std;

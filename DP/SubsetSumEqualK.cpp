@@ -39,24 +39,26 @@ bool subsetSumToK(int n, int k, vector<int> &arr)
 
 bool subsetSumToK(int n, int k, vector<int> &arr)
 {
+
     vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));
 
-    // Base case: If sum is 0, subset is always possible (empty subset)
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
         dp[i][0] = 1;
     }
-    for (int ind = 1; ind <= n; ind++)
+
+    for (int i = n - 1; i >= 0; i--)
     {
-        for (int j = 1; j <= k; j++)
+        for (int j = 0; j <= k; j++)
         {
+
             bool take = false, ntake = false;
-            if (j >= arr[ind - 1])                     //mark indexes carefully
-                take = dp[ind - 1][j - arr[ind - 1]];
-            ntake = dp[ind - 1][j];
-            dp[ind][j] = (take | ntake);
+            if (j >= arr[i])
+                take = dp[i + 1][j - arr[i]];
+            ntake = dp[i + 1][j];
+            dp[i][j] = (take | ntake);
         }
     }
 
-    return dp[n][k];
+    return dp[0][k];
 }

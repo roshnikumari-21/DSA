@@ -3,6 +3,7 @@ using namespace std;
 
 
 //some days, each day a particular task, no same taks on consecutive days
+//only 3 aciviites are there
 
 //tc=O(4*n) --->O(N)
 //sc=O(n)
