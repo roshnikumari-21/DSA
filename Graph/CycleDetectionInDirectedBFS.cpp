@@ -2,7 +2,10 @@
 using namespace std;
 
 
-//using kahn's algorithm
+// A Topological Sort is a linear ordering of vertices such that for every directed edge
+//  u -> v, vertex u comes before vertex v in the ordering.
+
+// //using kahn's algorithm
 //topo sort only applicable to dag
 
 //tc=O(v+e)

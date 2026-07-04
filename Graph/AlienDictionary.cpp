@@ -1,6 +1,8 @@
 // find out the alien order
 //tc=O(V+E)
 
+//here, N= no of strings and k is no of alphabets
+
 #include <vector>
 #include <string>
 #include <queue>

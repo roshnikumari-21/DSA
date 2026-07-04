@@ -4,13 +4,13 @@ using namespace std;
 // You need to fill the knapsack with the items in such a way that you get the maximum profit.
 // You are allowed to take one item multiple times.
 
-//memoization
+// memoization
 
 int solve(int ind, int n, int w, vector<int> &pro, vector<int> &wei, vector<vector<int>> &dp)
 {
     if (ind == n)
         return 0;
-        
+
     if (dp[ind][w] != -1)
         return dp[ind][w];
     int take = INT_MIN, ntake = INT_MIN;
@@ -28,27 +28,22 @@ int unboundedKnapsack(int n, int w, vector<int> &pro, vector<int> &wei)
 
 // tabulation___________________________________________________________________________________
 
-//shifting of indexes...to make base case easy to handle
-
-
-
 int unboundedKnapsack(int n, int w, vector<int> &pro, vector<int> &wei)
 {
     vector<vector<int>> dp(n + 1, vector<int>(w + 1, 0));
 
-    for (int i = 1; i <= n; i++)
+    for (int i = n - 1; i >= 0; i--)
     {
         for (int j = 0; j <= w; j++)
         {
 
             int take = INT_MIN, ntake = INT_MIN;
-
-            if (j >= wei[i - 1])
-                take = pro[i - 1] + dp[i][j - wei[i - 1]];
-            ntake = dp[i - 1][j];
+            if (j >= wei[i])
+                take = pro[i] + dp[i][j - wei[i]];
+            ntake = dp[i + 1][j];
             dp[i][j] = max(take, ntake);
         }
     }
 
-    return dp[n][w];
+    return dp[0][w];
 }

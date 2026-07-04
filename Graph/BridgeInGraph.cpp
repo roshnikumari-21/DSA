@@ -2,7 +2,7 @@
 // bridge---->split into two componenets
 
 // track---->time of insertion-->time at which you reach a node
-// lowestTimeOfInsertin---->not store parent's low, apart from parent
+// lowestTimeOfInsertin---->not store parent's low, apart from parent, among all adj node
 
 
 //tarjan's algorithm
