@@ -47,13 +47,13 @@
                     dfs(n - 1, i, mat, vis);
                 }
             }
-    
+           //first  col pr dfs
             for (int i = 0; i < n; i++) {
                 if (mat[i][0] == 'O' && vis[i][0] == 0) {
                     dfs(i, 0, mat, vis);
                 }
             }
-    
+            //last col pr dfs
             for (int i = 0; i < n; i++) {
                 if (mat[i][m - 1] == 'O' && vis[i][m - 1] == 0) {
                     dfs(i, m - 1, mat, vis);

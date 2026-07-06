@@ -2,6 +2,8 @@
 using namespace std;
 
 //tc=O(N*M)         sc=O(N*M)
+//You're given a matrix containing only 0s and 1s.
+//For every cell, find the distance to the nearest 0.
 
 
 class Solution

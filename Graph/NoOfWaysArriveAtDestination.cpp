@@ -22,7 +22,7 @@ public:
         }
 
         priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<pair<ll, ll>>> pq;
-        pq.push({0, 0});
+        pq.push({0, 0});    //(dist,node)
         vector<ll> dist(n, 1e12), ways(n, 0);
         dist[0] = 0;
         ways[0] = 1;            //note

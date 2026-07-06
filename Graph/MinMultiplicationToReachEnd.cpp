@@ -2,7 +2,7 @@
 // every node will be between 0 to 9999
 
 // use min-heap  {steps,number}, array
-// here a simplle queue will also work , coz we are going in incressing nature
+// here a simple queue will also work , coz we are going in incresing nature
 
 //tc=O(1e5 * N) 
 //but we cant geneatate all the number so tc will be lesser than this
