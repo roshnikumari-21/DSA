@@ -4,7 +4,7 @@
 // Input: children = [1,2,3], cookies = [1,1]
 // Output: 1
 
-
+//g=greed factor, s=cookie size
 //tc=O(nlogn + mlogm)
 
 #include <bits/stdc++.h>

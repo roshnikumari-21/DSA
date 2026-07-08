@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+//tc=O(nlogn)    sc= O(n)
+
 class Solution
 {
 public:

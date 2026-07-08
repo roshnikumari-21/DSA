@@ -1,4 +1,4 @@
-//unique solution exist, thus no need to coomplete the entire cycle..
+//unique solution exist, thus no need to complete the entire cycle..
 // given two integer arrays A and B of size N. There are N gas stations along a circular route,
 // where the amount of gas at station i is A[i].
 
@@ -6,6 +6,15 @@
 // station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
 
 // Return the minimum starting gas station's index if you can travel around the circuit once, otherwise return -1.
+
+
+//Circular Tour
+//CodeStorywithMIK
+
+//brute -> try all indexes
+
+//optimised____________________________
+
 
 #include <bits/stdc++.h>
 using namespace std;
