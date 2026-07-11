@@ -24,4 +24,4 @@ public:
     }
 };
 
-
+//__________Hoarse's algorithm

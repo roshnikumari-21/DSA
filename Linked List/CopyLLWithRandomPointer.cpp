@@ -16,7 +16,7 @@
 //     public:
 //         Node* copyRandomList(Node* head) {
 //             Node* temp=head;
-//             map<Node*,Node*>mp;
+//             map<Node*,Node*>mp;        //(original,copy)
 //             while(temp!=NULL){
 //                 Node* nwnod=new Node(temp->val);
 //                 mp[temp]=nwnod;
