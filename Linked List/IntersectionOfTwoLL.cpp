@@ -41,3 +41,6 @@
 //         return headA;
 //     }
 // };
+
+//why it works?
+//they ar

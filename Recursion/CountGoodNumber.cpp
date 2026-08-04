@@ -6,6 +6,8 @@ using namespace std;
 //  even and the digits at odd indices are prime (2, 3, 5, or 7).
 
 
+//tc=O(log(n))    sc=O(1)
+
 class Solution
 {
 public:

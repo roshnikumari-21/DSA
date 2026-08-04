@@ -1,4 +1,4 @@
-//doubly linked lisst
+//doubly linked list
 
 //the duplicates will be in contiguous manner bcoz its sorted
 
