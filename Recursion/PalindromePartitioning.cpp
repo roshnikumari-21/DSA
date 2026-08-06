@@ -4,6 +4,9 @@
 // Input: s = "aab"
 // Output: [["a","a","b"],["aa","b"]]
 
+
+//tc= O(n* 2^n)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,7 +30,7 @@ public:
     {
         if (ind == n)
         {
-            ans.push_back(temp);
+            ans.push_back(temp);     //O(n)
             return;
         }
 

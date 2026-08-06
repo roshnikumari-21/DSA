@@ -1,4 +1,5 @@
 //brute___________tc=O(2^n * n)_______________sc=(2^n * k)+ O(n)_________
+//basically not return duplicate subset
 
 #include <bits/stdc++.h>
 using namespace std;

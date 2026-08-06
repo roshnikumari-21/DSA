@@ -2,8 +2,11 @@
 using namespace std;
 
 //brute____________tc=O(n!*n)____________________________
-//sc=O(n)--->recursion stack space
+//sc=O(n)--->recursion stack space + extra for freq array
 
+//TUF
+
+//everytime we have to start from index 0
 
 class Solution {
 private:

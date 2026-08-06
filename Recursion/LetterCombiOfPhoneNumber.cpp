@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 //tc=O(4^n * n)
 
 //sc=O(N)
@@ -10,13 +9,13 @@ using namespace std;
 class Solution {
     public:
         string temp = "";
-        vector<string> ans;
+        vector<string> ans;    
         map<char, string> mp;
         int n;
         
         void f(string& dig, int ind) {
             if (ind >= n) {
-                ans.push_back(temp);
+                ans.push_back(temp);    // O(n)
                 return;
             }
             char ch = dig[ind];

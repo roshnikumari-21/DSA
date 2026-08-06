@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution{
     public:
-    //Complete this function
+
     void printNos(int N)
     {
         if(N==0) return;
