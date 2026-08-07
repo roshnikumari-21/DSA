@@ -12,6 +12,8 @@
 // max length subarray with atmost 2 numbers
 
 // brute____________________________________________________
+
+//tc= O(n^2)   sc=O(1)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -41,6 +43,8 @@ int totalFruit(vector<int> &fruits)
 }
 
 // optimal______________________________________________________________________________
+//tc=O(n)   sc=O(1)
+
 
 int totalFruit(vector<int> &fruits)
 {

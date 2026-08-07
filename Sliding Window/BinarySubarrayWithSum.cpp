@@ -3,8 +3,8 @@ using namespace std;
 
 
 
-//no of subarray with sum <= goal
-
+//here, the helper function is calculating no of subarray with sum <= goal
+//tc=O(n) sc=O(1)
 class Solution {
     public:
     
@@ -18,7 +18,7 @@ class Solution {
                     sum-=nums[l];
                     l++;
                   }
-                  cnt+=(r-l+1);   //the lenght
+                  cnt+=(r-l+1);   //the length
                   r++;
             }
             return cnt;

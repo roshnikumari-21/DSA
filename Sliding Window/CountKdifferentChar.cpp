@@ -7,6 +7,8 @@ using namespace std;
 
 // a unique approach usesd
 
+//tc=O(n)  sc=O(1)
+
 int helper(string str, int k)    //finding no of substrings with at most k distinct char
 {
     int n = str.size();

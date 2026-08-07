@@ -34,7 +34,7 @@ int longestSubstringWithLimit(string s, int k) {
 
 
 // optimal_____________________
-
+//tc=O(n)
 
 class Solution
 {
