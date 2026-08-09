@@ -2,8 +2,9 @@
 using namespace std;
 
 //brute________________tc=O(N*Q)->for q queries_____________________________________________
-
-class Solution
+// Input: arr[] = [1, 2, 3, 4, 1], queries = 2, indices[] = [0, 3]
+// Output:  [3, 0]
+ class Solution
 {
 public:
     vector<int> count_NGE(int n, vector<int> &arr, int qu, vector<int> &indices)

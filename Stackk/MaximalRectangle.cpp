@@ -2,8 +2,8 @@
 using namespace std;
 
 // do this
-//tc=O(N*M)+O(N*2M)
-//sc=O(N*M)+O(2*M)
+//tc=O(N*M)
+//sc=O(N)
 
 class Solution
 {
@@ -45,7 +45,7 @@ public:
         int m = mat[0].size();
         int maxi = 0;
         vector<int> temp(m, 0);
-        // vector<vector<int>>temp(n,vector<int>(m,0));
+        
 
         for (int i = 0; i < m; i++)
         {
@@ -55,7 +55,7 @@ public:
         // vector<int>cur(m,0);
         maxi = find(temp);
 
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i < n; i++)     //O(n*m)
         {
             for (int j = 0; j < m; j++)
             {

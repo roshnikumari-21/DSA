@@ -44,6 +44,9 @@ public:
 //2*val-prevmini= newval
 //prevmini=2*val-newval_____
 
+
+//eg: 12 15 10
+
 #include <iostream>
 #include <stack>
 using namespace std;

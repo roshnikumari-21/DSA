@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// brute______________tc=O(N*M)__________sc=O(M)___________________________________________________________
+// brute______________tc=O(N)__________sc=O(N)___________________________________________________________
 
 class Solution
 {
@@ -20,6 +20,7 @@ public:
                 pse[i] = st.top();
             else
                 pse[i] = -1;
+
             st.push(i);
         }
 
@@ -65,8 +66,8 @@ public:
     }
 };
 
-// optimal_____________________________________________________________________________________________
-//O(n)
+// optimal_(only one stack used)____________________________________________________________________________________________
+//O(n) both tc and sc
 
 //while kicking out from stack , compute the rect size , update maxi..
 //we are actually putting the index in stack
