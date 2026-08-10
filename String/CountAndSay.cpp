@@ -2,7 +2,9 @@
 using namespace std;
 
 
+//tc= O(2^n) sc=O(n)
 
+//u can do the recursion version also
 class Solution
 {
 public:

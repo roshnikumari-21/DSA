@@ -9,6 +9,8 @@ using namespace std;
 // Input: s = "anagram", t = "nagaram"
 // Output: true
 
+
+//tc=O(nlogn)
 class Solution {
     public:
         bool isAnagram(string s, string t) {
@@ -21,3 +23,4 @@ class Solution {
     
         }
     };
+

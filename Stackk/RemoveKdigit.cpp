@@ -4,7 +4,7 @@
 // keep smaller digits at the start
 // get rid of k larger ones
 
-// maintain stack remove top larger elemetns
+// maintain stack remove top larger elements
 // edge case.....
 
 // tc=O(3n)+O(k)

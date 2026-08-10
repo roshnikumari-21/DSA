@@ -17,6 +17,7 @@
 //there is always 1 celebrity or no celebrity at all
 
 //tc=O(N^2)
+//sc=O(2n)
 
 
 //_______________________________________________________________________
