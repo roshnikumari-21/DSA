@@ -34,6 +34,8 @@ public:
 
 // lps= longest prefix which is equal to suffix of equal length...
 
+//eg: str: abababd   pat: ababd
+
 class Solution
 {
 public:

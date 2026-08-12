@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+//tc=O(k)
+//sc=O(1)
 class Solution {
     public:
         int maxScore(vector<int>& nums, int k) {
