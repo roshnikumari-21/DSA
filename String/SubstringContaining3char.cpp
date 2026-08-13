@@ -7,7 +7,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// tc=O(N2) sc=O(1)
+// tc=O(N^2) sc=O(1)
 
 class Solution
 {

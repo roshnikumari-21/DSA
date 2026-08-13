@@ -9,6 +9,8 @@ using namespace std;
 
 //tc=O(n*logK) sc=O(K)-->of map
 
+//u can use unordered map too
+
 class Solution
 {
 public:

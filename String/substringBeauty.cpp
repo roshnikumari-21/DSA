@@ -10,7 +10,7 @@ using namespace std;
 //brute force _____________
 //no shortcut
 
-
+//tc=O(n^2)     sc=O(26)~O(1)
 class Solution {
     public:
         int beautySum(string s) {

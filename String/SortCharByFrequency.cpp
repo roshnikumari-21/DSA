@@ -10,6 +10,8 @@ using namespace std;
 // Input: s = "tree"
 // Output: "eert"
 
+
+//tc=O(nlogn)     sc=O(n)
 class Solution
 {
 public:

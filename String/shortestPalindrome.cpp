@@ -30,6 +30,28 @@ class Solution {
         }
     };
 
+
+    //using cmp for memory comparisons______________________
+
+class Solution {
+public:
+    string shortestPalindrome(string s) {
+        int n = s.size();
+        string rev = s; // make a reversed string
+        reverse(rev.begin(), rev.end());
+        for (int i = 0; i < n; i++) {
+
+            if (!memcmp(s.c_str(), rev.c_str() + i, n - i)) {
+                return rev.substr(0, i) + s;
+            }
+        }
+
+        return ""; // it never reaches here ..
+    }
+};
+
+
+
     //best approach ____using kmp___________________
     //we basically find the longest proper prefix in s which matches the suffix in rev
     // tc= O(n) sc=O(n)
