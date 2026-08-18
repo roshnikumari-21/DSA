@@ -43,7 +43,7 @@
 
 // vector<int> printBoundary(Node *root) {
 //     vector<int> res;                //our ds
-//     if (!root) return res;
+//     if (root==NULL) return res;
 //     if (!isLeaf(root)) res.push_back(root->data);    //put root first
 
 //     addLeftBoundary(root, res);

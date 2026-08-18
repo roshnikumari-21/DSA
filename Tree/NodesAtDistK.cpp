@@ -4,6 +4,7 @@
 //radial outward direction movement
 
 
+//tc=O(n)  sc=O(n)
 
 
 // class Solution {

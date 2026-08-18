@@ -29,8 +29,8 @@
 //             auto p = q.front();
 //             q.pop();
 //             TreeNode *nod = p.first;
-//             int x = p.second.first;
-//             int y = p.second.second;
+//             int x = p.second.first;      //vertical
+//             int y = p.second.second;        //level
 //             mp[x][y].insert({nod->val});    //O(log(m))
 //             if (nod->left != NULL)
 //             {

@@ -4,6 +4,8 @@
 // we will index every node O based, then formula= (last index-first index+1) for max width
 // solve the issue of overfloweing
 
+//using 0 based indexing
+
 //tc=O(N)     sc=O(N)
 
 
