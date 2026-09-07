@@ -157,3 +157,5 @@ Whenvever in problem says prefix or suffix--->Trie
 
 Fenwick Tree = "Segment Tree for prefix sums,range sums, but simpler and lighter."
 Segment Tree = "General-purpose range query data structure." like min, max, gcd, lcm, etc.
+
+list in cpp  takes O(1) for insertion and deletion at any position, but it uses more space than vectors and has worse cache performance.
